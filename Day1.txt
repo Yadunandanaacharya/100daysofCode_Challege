@@ -1,1 +1,41 @@
 *) Solving problems in Edabit website.
+
+*) Paused at ternary operator problem under JS
+Scored 180xp points until now.
+For next solve 40 Easy problems, 30 medium problems, 10 hard, 5 very hard, 5 Expert problems.
+Don't look at very easy problems.
+
+*)
+function areTrue(a, b) {
+    return (a === true) ? (b === true) ? "both" 
+    :  "first" 
+    : (a === false && b === true) ? "second" 
+    :  "neither"
+}
+
+
+obj = areTrue(true,true)
+console.log(obj)
+
+Above one is working in vscode for quetion:
+
+funtion .......{
+if (a == true) {
+    if (b == true) {
+        return "both";
+    }
+    else {
+        return "first";
+    }
+}
+else if (b = true) {
+    return "second";
+}
+else {
+    return "neither";
+}
+
+Refernce: http://twistedoakstudios.com/blog/Post5273_how-to-read-nested-ternary-operators
+
+*) Following this one to prepare for interview:
+https://overiq.com/django-1-10/views-and-urlconfs-in-django/

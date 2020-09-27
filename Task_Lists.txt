@@ -5,6 +5,8 @@
 
 *) Read this Image daily: https://www.100daychallenge.com/200/wp-content/uploads/100-day-challenge-program.jpg
 
+*) Don't forget to upload in twitter.
+
 *) 100 days of code: Solve max problems in 100 days at least for one and half an hour per day.
 Including Python and Javascript.
 
@@ -21,3 +23,5 @@ Including Python and Javascript.
 *) Update daily task with Notepad.
  
 *) Commit taks in github daily also in Twitter.
+
+*) https://workat.tech/general/article/approach-people-linkedin-online-communities-5q7lqw6apwxl
