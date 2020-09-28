@@ -1,0 +1,37 @@
+"""Write a function that stutters a word as if someone is struggling to read it. 
+The first two letters are repeated twice with an ellipsis ... and space after 
+each, and then the word is pronounced with a question mark ?."""
+
+def stutter(word):
+	return word[:2] +'... ' + word[:2] + '... '+ word + '?'
+
+
+def numbers_sum(lst):
+	sum = 0
+	for i in lst:
+		if type(i) == int:
+			sum = sum + i
+	return sum
+
+My error with this program: typed return inside for loop.
+
+"""
+calculate_losses({
+  "tv" : 30,
+  "skate" : 20,
+  "stereo" : 50,
+}) ➞ 100
+
+calculate_losses({
+  "painting" : 20000,
+}) ➞ 20000
+
+calculate_losses({}) ➞ "Lucky you!""""
+
+def calculate_losses(items):
+	return sum(items.values()) or 'Lucky you!'
+
+#########################################################
+Solved 5- 6  easy problems.
+Under for loop and Algorithms.
+In Javascript you can find Linked list queue problems but not in Python.
