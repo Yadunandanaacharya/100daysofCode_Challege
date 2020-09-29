@@ -1,0 +1,28 @@
+Recursion problems:
+
+Create a function that takes a number as an argument. Add up all 
+the numbers from 1 to the number you passed to the function. For 
+example, if the input is 4 then your function should return 10 
+because 1 + 2 + 3 + 4 = 10.
+
+import sys
+sys.setrecursionlimit(1500)
+def add_up(num):
+	if num == 1:
+		return 1
+	else:
+		return num + add_up(num-1)
+
+Above code didn't work with Recursion limit 1000.
+
+#############################################################
+
+def reverse(txt):
+	if len(txt) == 0:
+		return ""
+	else:
+		return reverse(txt[1:]) + txt[0]  
+
+Reverse a string using recursion.
+return txt[-1] + reverse(txt[:-1]) also works
+

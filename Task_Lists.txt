@@ -7,6 +7,21 @@
 
 *) Don't forget to upload in twitter.
 
+*) https://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions
+
+*) https://stackoverflow.com/questions/747292/what-computer-science-concepts-should-i-know#:~:text=It%20goes%20into%20some%20detail%20about%20the%20the,O%20notation%20and%20algorithmic%20complexity.%20More%20items...%20
+Take a look at this blog post by Steve Yegge (formerly of Amazon, now at Google):
+
+The Five Essential Phone Screen Questions
+It goes into some detail about the the five most important concepts that developers should be required to know:
+
+Basic programming (including recursion, file I/O, formatted output, loops etc)
+Object oriented design (including design patterns etc). You should be able to produce sensible OO designs as well as 
+understanding the concepts.
+Scripting and regexes.
+Data structures -- lists, sets, hashtables, trees, graphs, and so on -- as well as Big O notation and algorithmic complexity.
+Bits, bytes and binary numbers -- how numbers are represented within the computer, and how to manipulate them.
+
 *) 100 days of code: Solve max problems in 100 days at least for one and half an hour per day.
 Including Python and Javascript.
 
