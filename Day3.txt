@@ -26,3 +26,18 @@ def reverse(txt):
 Reverse a string using recursion.
 return txt[-1] + reverse(txt[:-1]) also works
 
+############################################################
+Fibonacci sequence
+Printh nineth fib sequence:
+Fibonacci is sum od last to fib sequences
+
+1 2 3 4 5 6 7 8 9 
+0 1 1 2 3 5 8 13 21
+So 21 is the answer
+
+While doing recursively: fib(n-1) + fib(n-2)
+So fib(9) = fib(9-1) + fib(9-2) => 13 + 8 = 21
+
+
+
+

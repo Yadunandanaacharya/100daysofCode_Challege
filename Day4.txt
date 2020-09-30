@@ -1,0 +1,7 @@
+Recursively finding length of list.
+def length(listis):
+    if len(listis) == 0:
+        return 0
+    else:
+        return 1 + length(listis[1:])
+        
