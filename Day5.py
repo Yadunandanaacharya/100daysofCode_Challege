@@ -43,4 +43,42 @@ for elements in range(1,len(newlist2)):
         # print(smallest)
    
 
-print('smallest ',smallest)
+# print('smallest ',smallest)
+
+
+def is_subset(lst1, lst2):
+    twolist = lst1 + lst2
+    for i in range(len(twolist)):
+        print(lst1[i],lst2[i])
+        # if  lst2[i] == lst1[i]:
+        #     count +=1
+        # print(count)
+# print(is_subset([1,2],[3,4,1,2]))
+def is_subset(lst1, lst2):
+	twolist = lst1 + lst2
+	lst1length = len(lst1)*2
+	count = 0
+	for i in ((twolist)):
+		if twolist.count(i) > 1:
+			count += 1
+	if count == lst1length:
+		return True
+	else:
+		return False
+print(is_subset([1,2],[3,4,1,2]))
+	
+
+def is_subset1(lst1, lst2):
+    print(set(lst1),set(lst2))
+    return set(lst1) <= set(lst2)
+
+
+# Adding index to list elements with respect to their index
+def add_indexes(lst):
+	newlist = []
+	for i in range(len(lst)):
+		adding_numbers = lst[i] + i
+		newlist.append(adding_numbers)
+	return newlist
+		
+	 
