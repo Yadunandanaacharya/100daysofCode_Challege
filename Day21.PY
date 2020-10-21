@@ -46,4 +46,4 @@ def sum_fractions(lst):
 def name_shuffle(txt):
 	space_split = (txt.split(" "))
 	return " ".join(space_split[::-1])
-Test.assert_equals(name_shuffle("Donald Trump"),"Trump Donald")
+# Test.assert_equals(name_shuffle("Donald Trump"),"Trump Donald")
