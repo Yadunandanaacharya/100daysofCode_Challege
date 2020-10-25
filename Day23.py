@@ -36,5 +36,20 @@ def fibis(n):
             next = start + end
             start = end
             end = next
-    print(str(next))
+    return (str(next))
 print(fibis(10))
+
+
+def fibis(n):
+    first = 1
+    second = 2
+    for i in range(0,n):
+        if i==1 or i==2 or i==0:
+            # Write whatever here
+            i='hai'
+        else:
+            next = first + second
+            first = second
+            second = next
+    return (str(next))
+# print(fibis(10))
