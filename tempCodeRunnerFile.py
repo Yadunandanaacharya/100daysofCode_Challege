@@ -1,1 +1,1 @@
-while digit!=1:
+1,5

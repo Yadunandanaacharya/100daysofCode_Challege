@@ -44,9 +44,41 @@ def armstrong_num_or_not(nis):
 
 # Prime or not:
 n=10
-for i in range(1,n):
-    if n%i==0:
-        print("Not Prime")
+
+if n<1 or n==1:
+    print("Not prime")
+else:
+    flag = 0
+    for i in range(2,n//2):
+        if n%i==0:
+            flag=1
+            break
+    print(flag)
+    if flag==1:
+        print('Not ')
     else:
-        if n//1==0 and n//n==0:
-            print("prime")
+        print("prime")
+
+
+# Don't remember codes or byheart them, try to underastand logic
+# and try to remember logic
+# In case of deteceting prime integers, if numbers are less than 0 and 1then 
+# not prime or else, if number is divisible in the range of 2 to number//2
+# means if 10 is the number then cheking range from
+# 2 to 5 because you know that right above half of integer there won't be any 
+# integer which divides that number.
+
+
+
+def fib(n):
+    first = 1
+    second = 2
+    for i in range(n):
+        if i<=2:
+            i = n
+        else:
+            total = first+second
+            first = second
+            second = total
+    return total
+# print(fib(10))
