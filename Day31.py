@@ -70,10 +70,12 @@ jjj = Solution()
 def missing(arr,n):
     sumis = sum([i for i in range(1,n+1)])
     return sumis - sum(arr)
-test_case = int(input('Enter how many test case'))
-for i in range(test_case):
-    first_arry_size = int(input('Enter array size'))
-    first_array_is = [int(i) for i in input().split()]
-    print(missing(first_array_is,first_arry_size))
-
+output = []
+test = int(input('How many tests?'))
+for i in range(test):
+    array_size = int(input('Array sizze is'))
+    arrays = [int(i) for i in input().split()]
+    output.append(missing(arrays,array_size))
+for i in output:
+    print(i)
 # print(missing([1,2 ,3, 5],5))
