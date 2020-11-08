@@ -18,18 +18,18 @@ class Solutionn(object):
         result = []
         pointer1 = 0
         pointer2 = len(nums)-1
+        sumis = nums[pointer1] + nums[pointer2]
         while pointer1 < pointer2:
-            sumis = nums[pointer1] + nums[pointer2]
-            if sumis > target:
+            
+            if sumis == target:
+                result.append([[pointer1],[pointer2]])
+            elif sumis > target:
                 pointer2 -= 1
             elif sumis < target:
                 pointer1 +=1
-            elif sumis == target:
-                return True
-        if True:
-            result.append([pointer1,pointer2])
-        print(result)
-        return nums
+        return result
 obj = Solutionn()
-print(obj.twoSum([3,2,4],6))
-# print(obj.twoSum([2,7,11,15],9))
+print(obj.twoSum([1,2,3],4)),
+# print(obj.twoSum([2,7,,11,15],9))
+
+# https://algodaily.com/lessons/using-the-two-pointer-technique
