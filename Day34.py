@@ -29,7 +29,16 @@ class Solutionn(object):
                 pointer1 +=1
         return result
 obj = Solutionn()
-print(obj.twoSum([1,2,3],4)),
+# print(obj.twoSum([1,2,3],4)),
 # print(obj.twoSum([2,7,,11,15],9))
 
 # https://algodaily.com/lessons/using-the-two-pointer-technique
+
+
+
+# oj = hashmap2sum()
+# print(oj.sum2([2,8,3,1,0,11,7],9))
+
+dictis= {'a':0,'b':2,'c':3}
+dictis.update('a',3)
+print(dictis)
