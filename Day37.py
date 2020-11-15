@@ -18,6 +18,33 @@ def palindrome(num):
     print((reveris))
 
 print(palindrome(-101))
+# ################################
+# ################################
+# ################################
+# Below solution passed all test cases of leetcode:
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        
+        if    -(2**31) <= x < 0:
+            return False
+        elif x == 0:
+            return True
+        else:
+            reverse = 0
+            intis = x
+            while 0 < x <= (2**31)-1:
+                reverse = reverse*10 + x%10
+                x = x//10
+            if reverse == intis and reverse > 0:
+                return True
+            else:
+                return False
+        
+
+
+
+
+
 # 123:
 # 0 + 123%10  = 3
 # 3*10 + 2 = 32
