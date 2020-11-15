@@ -19,8 +19,9 @@ def sum2(arr, target):
     resultdict = {}
     for i, n in enumerate(arr):
         diff = target -n
+         
+        
         if diff in resultdict:
-            return [resultdict[n],i]
-        resultdict[n] = i
-    return
-    
+            print([resultdict[diff],i])
+        resultdict[n] = i   
+print(sum2([2,7,11,10],9))

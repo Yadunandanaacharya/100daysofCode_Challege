@@ -36,9 +36,9 @@ obj = Solutionn()
 
 
 
-# oj = hashmap2sum()
-# print(oj.sum2([2,8,3,1,0,11,7],9))
+oj = hashmap2sum()
+print(oj.sum2([2,8,3,1,0,11,7],9))
 
-dictis= {'a':0,'b':2,'c':3}
-dictis.update('a',3)
-print(dictis)
+# dictis= {'a':0,'b':2,'c':3}
+# dictis['a'] = 34
+# print(dictis)
