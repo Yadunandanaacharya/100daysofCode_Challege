@@ -1,23 +1,9 @@
-# Palindrome without converting to string
-def pali(num):
-    reveris = []
-    while num != 0:
-        reveris.append(num % 10)
-        num = num // 10
-    print(int(reveris))
-
-# print(pali(123))
-
-
-
-
-# $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-# $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-# $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-# $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-# Anangram or not:
-class Solution1:
-    def isAnagram(self, s, t):
-        print('Hai')    
-# obj1  = Solution1()
-# print(obj1.isAnagram('anagram','nagaram'))
+for i in listis[0]:
+#     for j in listis[1]:
+#         for k in listis[2]:
+#             if i or j or k in both:
+#                 continue
+#             else:
+#                 if i==j and i==k:
+#                     both = both + i + j + k
+# print(both)
