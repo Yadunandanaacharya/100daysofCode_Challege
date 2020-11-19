@@ -53,4 +53,4 @@ class solution2:
         return ''
 
 obj2 = solution2()
-print(obj2.outerfunction([]))
+print(obj2.outerfunction(list2))
