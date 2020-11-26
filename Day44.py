@@ -40,7 +40,9 @@ def remove(arris):
 
 obj = remove([1,2,2,3,4])
 # print(obj)
-
+############################################################
+############################################################
+############################################################
 
 # [2,7,11,15], target = 9
 mainarr = [2,7,11,15]
@@ -61,10 +63,71 @@ def sum2(arri,target):
     return (result)
 
 
-onji = sum2(mainarr,targetsum)
-print(onji)
+# onji = sum2(mainarr,targetsum)
+# print(onji)
 
-# arris = [1,288,3748,4,5]
-# for i,j in enumerate(arris):
-#     sumis = i + j
-#     print(sumis,i,j)
+############################################################
+############################################################
+############################################################
+# Reverse an integer: here you should not convert 
+# integer to string
+
+numis = 123
+def revrsint(num):
+    reverseis = 0
+    while num != 0:
+        reverseis = reverseis * 10 + (num % 10)
+        num = num // 10
+    return reverseis
+
+# print(revrsint(numis))
+
+
+############################################################
+############################################################
+number = 9
+def equalornot(num):
+    if num in range(0,11):
+        return  num == 9
+    else:
+        print('No')
+
+# print(equalornot(number))
+# for i in range(-4,0):
+#     print(i)
+
+
+# ################################################
+# ################################################
+# ################################################
+# check palindrome or not with simple many test cases
+# Important overflow test case is also included
+# -231 <= x <= 231 - 1
+
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        if x in range(0,10):
+            return True
+        elif x in range(10,2**31):
+            mainnum = x
+            numis = x
+            reverseis = 0
+            while numis != 0:
+                reverseis = reverseis * 10 + (numis % 10)
+                numis = numis // 10
+            return reverseis == mainnum
+        elif x in range(-(2**31),0):
+            return False
+        
+arr1 = [1,2,2,3,4]  #SHould return 4
+# remove duplicate from sorted array and return length
+def duplicatereturnlength(arr):
+    if len(arr) == 0:
+        return 0
+    pointer1 = 0
+    for pointer2 in range(0,len(arr)):
+        if arr[pointer2] != arr[pointer1]:
+            pointer1 += 1
+            arr[pointer2] = arr[pointer1]
+        return pointer1+1
+print(duplicatereturnlength(arr1))
