@@ -53,13 +53,18 @@ def sum2(arri,target):
     for i,j in enumerate(arri):
         diff = target - j
         if diff not in maindict:
-            maindict[diff] = i
-        result = [maindict[diff],i]
-    print(result)
+            maindict[j] = i
+        # print('dict is',maindict)
+        # print('diff is',diff)   
+        if diff in maindict:
+            result = [maindict[diff],i]
+    return (result)
 
 
-# print(sum2([mainarr],9))
-arris = [1,288,3748,4,5]
-for i,j in enumerate(arris):
-    sumis = i + j
-    print(sumis,i,j)
+onji = sum2(mainarr,targetsum)
+print(onji)
+
+# arris = [1,288,3748,4,5]
+# for i,j in enumerate(arris):
+#     sumis = i + j
+#     print(sumis,i,j)
