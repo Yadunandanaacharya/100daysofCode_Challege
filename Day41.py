@@ -14,21 +14,22 @@
 # Input: s = "{[]}"
 # Output: true
 
-stringis = "){"
+stringis = "({"
 class Solution:
     def isValid(self, s):
-        main_stack = []
+        
         
         if len(s) == 1:
             return False
         else:
             open_parathesis = ['(','{','[']
+            main_stack = []
             for i in s:
                 if i in open_parathesis:
                     main_stack.append(i)
-                if len(s) >= 0:
-                    
-                    if i == ')':
+                    print(main_stack)
+                if len(s) > 1:
+                    if i == '(':
                         if main_stack[-1] == open_parathesis[0]:
                             main_stack.pop()
                         else:
@@ -45,9 +46,9 @@ class Solution:
                             main_stack.pop()
                         else:
                             return False
+                    
                 else:
                     return False
-        return len(main_stack) == 0
-
+        # return len(main_stack) == 0
 ob = Solution()
 print(ob.isValid(stringis))
