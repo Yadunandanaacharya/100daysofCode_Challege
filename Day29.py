@@ -94,23 +94,28 @@ begin = time.time()
 # print(f"Total runtime of the program is {end - begin}") 
 # print(ob.countTriplet([12, 8, 2, 11, 5, 14, 10],7))
 
-
-
+import time
+start = time.time()
 class Solution:
-	def countTriplet(A, arr_size, sum):
+	def countTriplet(self,A, arr_size, suma):
 		A.sort()
 		for i in range(0, arr_size-2):
 			l = i + 1
 			r = arr_size-1
 			while (l < r):
-				if( A[i] + A[l] + A[r] == sum):
+				if( A[i] + A[l] + A[r] == suma):
 					print("Triplet is", A[i],', ', A[l], ', ', A[r]);
 					return True
-				elif (A[i] + A[l] + A[r] < sum):
+				elif (A[i] + A[l] + A[r] < suma):
 					l += 1
 				else: # A[i] + A[l] + A[r] > sum
 					r -= 1
 		return False
- 
+
 j = Solution()
-print(j.countTriplet([12, 8, 2, 11, 5, 14, 10],7))
+arrayis = [12, 8, 2, 11, 5, 14, 10,2,3,4,5,6,7,8,9,0,2,2,2,2,22,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,45,3,3,3,3,3,33,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,33,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]
+print(j.countTriplet(arrayis,7,22))
+
+time.sleep(1)
+end = time.time()
+print(f"Runtime of the program is {end - start}")

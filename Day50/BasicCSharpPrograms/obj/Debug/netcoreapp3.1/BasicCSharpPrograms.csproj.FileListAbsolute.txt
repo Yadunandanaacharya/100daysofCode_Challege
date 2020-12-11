@@ -1,0 +1,13 @@
+D:\Github_clone_repo\100daysofCode_Challege\Day50\BasicCSharpPrograms\bin\Debug\netcoreapp3.1\BasicCSharpPrograms.exe
+D:\Github_clone_repo\100daysofCode_Challege\Day50\BasicCSharpPrograms\bin\Debug\netcoreapp3.1\BasicCSharpPrograms.deps.json
+D:\Github_clone_repo\100daysofCode_Challege\Day50\BasicCSharpPrograms\bin\Debug\netcoreapp3.1\BasicCSharpPrograms.runtimeconfig.json
+D:\Github_clone_repo\100daysofCode_Challege\Day50\BasicCSharpPrograms\bin\Debug\netcoreapp3.1\BasicCSharpPrograms.runtimeconfig.dev.json
+D:\Github_clone_repo\100daysofCode_Challege\Day50\BasicCSharpPrograms\bin\Debug\netcoreapp3.1\BasicCSharpPrograms.dll
+D:\Github_clone_repo\100daysofCode_Challege\Day50\BasicCSharpPrograms\bin\Debug\netcoreapp3.1\BasicCSharpPrograms.pdb
+D:\Github_clone_repo\100daysofCode_Challege\Day50\BasicCSharpPrograms\obj\Debug\netcoreapp3.1\BasicCSharpPrograms.csprojAssemblyReference.cache
+D:\Github_clone_repo\100daysofCode_Challege\Day50\BasicCSharpPrograms\obj\Debug\netcoreapp3.1\BasicCSharpPrograms.AssemblyInfoInputs.cache
+D:\Github_clone_repo\100daysofCode_Challege\Day50\BasicCSharpPrograms\obj\Debug\netcoreapp3.1\BasicCSharpPrograms.AssemblyInfo.cs
+D:\Github_clone_repo\100daysofCode_Challege\Day50\BasicCSharpPrograms\obj\Debug\netcoreapp3.1\BasicCSharpPrograms.csproj.CoreCompileInputs.cache
+D:\Github_clone_repo\100daysofCode_Challege\Day50\BasicCSharpPrograms\obj\Debug\netcoreapp3.1\BasicCSharpPrograms.dll
+D:\Github_clone_repo\100daysofCode_Challege\Day50\BasicCSharpPrograms\obj\Debug\netcoreapp3.1\BasicCSharpPrograms.pdb
+D:\Github_clone_repo\100daysofCode_Challege\Day50\BasicCSharpPrograms\obj\Debug\netcoreapp3.1\BasicCSharpPrograms.genruntimeconfig.cache

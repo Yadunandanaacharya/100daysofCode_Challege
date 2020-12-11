@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\yadua\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\yadua\\.nuget\\packages"
+    ]
+  }
+}

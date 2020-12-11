@@ -35,6 +35,16 @@ from collections import Counter
 str1 = 'bbbb'
 countis = Counter(str1)
 # print(len(countis))
+
+def dupli(str1):
+    string = str1
+    counteach = Counter(string)
+    value = list(counteach.values())
+    repeat = [i for i in value if i>1]
+    if repeat != []:
+        return True
+    else:
+        return False
 def repeastr(str1):
     if len(str1) == 0:
         return 0
@@ -43,19 +53,24 @@ def repeastr(str1):
         return 1
     j = 0
     substring = ''
-    for i in range(0,len(str1)-1):
-        if str1[i] != str1[i+1]:
-            substring = substring + str1[i]
-            i+=1
-            print(substring)
+    mainarr = []
+    lensubstr = 0
+    for i in range(0,len(str1)):
+        substring = substring + str1[i]
+        repeatcheck = dupli(substring)
+        if repeatcheck == True:
+            substring =(substring[1:])
+        mainarr.append(substring)
+    return max([len(i) for i in mainarr])    
 
-print(repeastr('abcabcbb'))
+print(repeastr('abcabcdbb'))
 
 #########################################
 #########################################
 # brute force
 
-# stris = 'ABDEFGABEF'
+
+
 # def repeatbrute(str1):
 #     for i in range(0,len(str1)):
 #         for j in range(i+1,len(str1)):
@@ -63,3 +78,21 @@ print(repeastr('abcabcbb'))
 #                 print(str1[i],str1[j],str1[k])
 
 # print(repeatbrute(stris))
+
+
+
+# optimized prime checker:
+def primeornot(n):
+    if n>1:
+        for i in range(2,int(n/2)):
+            if (n%i) == 0:
+                print('Not prime')
+                break
+            else:
+                print('prime')
+               
+    else:
+        print('Not prime')
+        
+
+# print(primeornot(121))
