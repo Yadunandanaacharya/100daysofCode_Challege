@@ -49,3 +49,17 @@ print('large number is',largestnumber([10,2,12,4,8888,1,1,1,1,1,1,1,1,1,1,100,10
 
 # This below step is important which helps to traverse through list
 # maxis = largestnumber(listelements[1:])
+
+
+class Solution:
+    def twoSum(self, nums,target):
+        resultdict = dict()
+        for i,j in enumerate(nums):
+            diff = target - j
+            if diff not in resultdict:
+                resultdict[j] = i
+            if diff in resultdict:
+                result = [resultdict[diff],i]
+        return (result)
+obj = Solution()
+print(obj.twoSum([2,7,11,15],9))
